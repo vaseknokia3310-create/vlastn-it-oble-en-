@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vlastní šité oblečení</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf6;
+  color: #51443f;
+}
+header {
+  background: #ead8d0;
+  padding: 25px;
+  text-align: center;
+}
+header h1 {
+  font-family: Georgia, serif;
+  font-size: 34px;
+}
+nav { margin-top: 20px; }
+nav a {
+  color: #51443f;
+  text-decoration: none;
+  margin: 12px;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: #f4e8e2;
+}
+.hero h2 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+}
+.hero p { font-size: 18px; }
+.btn {
+  display: inline-block;
+  background: #a87970;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+section {
+  padding: 55px 20px;
+  text-align: center;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.product {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 260px;
+}
+.product .photo {
+  background: #f1e3dc;
+  height: 190px;
+  display: grid;
+  place-items: center;
+  font-size: 55px;
+}
+.product h3 { font-family: Georgia, serif; }
+footer {
+  background: #ead8d0;
+  padding: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Vlastní šité oblečení</h1>
+  <p>Každý kousek šitý s láskou ❤️</p>
+  <nav>
+    <a href="#domu">Domů</a>
+    <a href="#nabidka">Nabídka</a>
+    <a href="#onas">O nás</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<div class="hero" id="domu">
+  <h2>Oblečení s vlastním příběhem</h2>
+  <p>Originální ručně šité oblečení pro každého.</p>
+  <a class="btn" href="#nabidka">Prohlédnout nabídku</a>
+</div>
+
+<section id="nabidka">
+  <h2>Naše nabídka</h2>
+  <div class="products">
+    <div class="product">
+      <div class="photo">👗</div>
+      <h3>Šaty</h3>
+      <p>Originální šaty šité s láskou.</p>
+    </div>
+    <div class="product">
+      <div class="photo">👚</div>
+      <h3>Trička</h3>
+      <p>Pohodlné a jedinečné kousky.</p>
+    </div>
+    <div class="product">
+      <div class="photo">👜</div>
+      <h3>Doplňky</h3>
+      <p>Ručně vyráběné doplňky.</p>
+    </div>
+  </div>
+</section>
+
+<section id="onas">
+  <h2>Něco o nás</h2>
+  <p>
+    Tvoříme originální oblečení, které je
+    ručně šité s důrazem na detail.
+    Každý výrobek je jedinečný.
+  </p>
+</section>
+
+<section id="kontakt">
+  <h2>Kontaktujte nás</h2>
+  <p>Máte zájem o vlastní kousek oblečení?</p>
+  <p>Napište nám a společně vytvoříme něco krásného.</p>
+  <p>E-mail: sem-doplnit-email</p>
+</section>
+
+<footer>
+  © 2026 Vlastní šité oblečení
+  <p>Vyrobeno s láskou ❤️</p>
+</footer>
+
+</body>
+</html>
